@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 10rem;
+
+    background-color: #1F1F1F;
+    border-radius: 0em 0em 1rem 1rem;
+    color: #fff;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+    
+#search {
+    border: none;
+    border-radius: 15px;
+    padding: 0 1rem;
+    margin: 0 1rem;
+    height: 40px;
+    width: 17rem;
+    transition: all ease 300ms;
+}
+
+.content {
+    display: grid;
+    flex-direction: column;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: 1rem;
+    background-color: #DC0A2D;
+    border-radius: 1rem;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: all ease 0.3s ease;
+}
+
+.pagination button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    background-color: #1F1F1F;
+    color: #F2F2F2;
+}
